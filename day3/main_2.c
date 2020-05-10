@@ -6,5 +6,7 @@ void main() {
   scanf("%d", &a);
   if (a > 0) {
     printf("入力値は正の値です\n");
+  } else {
+    printf("入力値は正の値ではありません。\n");
   }
 }
