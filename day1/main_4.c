@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void main()
-{
+void main() {
   printf("ABC");
   printf("DEF\n");
 }

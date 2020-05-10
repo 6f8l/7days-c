@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void main()
-{
+void main() {
   int a1 = 2, b1 = 2, c1 = 2, d1 = 2;
   int a2 = 2, b2 = 2, c2 = 2, d2 = 2;
 
