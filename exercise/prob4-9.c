@@ -8,9 +8,9 @@ void main() {
   srand((unsigned)time(NULL));
 
   while (1) {
-    num = rand() % 10 + 1;
+    num = rand() % 100 + 1;
     printf("%d\n", num);
-    if (num == 10) {
+    if (num % 10 == 0) {
       break;
     }
   }
