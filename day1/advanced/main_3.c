@@ -1,7 +1,11 @@
+#include <math.h>
 #include <stdio.h>
 
 void main() {
-  printf("こんにちは。私の名前は%sです。\n年齢は%d歳です。\n", "山田太郎", 20);
-  printf("イニシャルは、%cです。\n", 'Y');
-  printf("%f + %f = %f\n", 1.2, 2.7, 1.2 + 2.7);
+  int n = -2;
+  double d1 = -2.5, d2 = 4.0;
+  printf("%dの絶対値は%d\n", n, abs(n));
+  printf("%fの絶対値は%f\n", d1, fabs(d1));
+  printf("%fの2乗は%fです。\n", d2, pow(d2, 2));
+  printf("%fの平方根は%fです。\n", d2, sqrt(d2));
 }
